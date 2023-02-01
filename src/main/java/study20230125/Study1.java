@@ -33,7 +33,7 @@ public class Study1 {
         while (true) {
             System.out.println("연산자를 입력하세요 (+,-,*,/)");
             String operator = scanner.nextLine();
-            
+
             // todo - equals 와 == 차이 알아내기
             if (!(operator.equals("+") || operator.equals("-") || operator.equals("*") || operator.equals("/"))) {
                 System.out.println("프로그램을 종료합니다");

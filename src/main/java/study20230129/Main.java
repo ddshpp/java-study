@@ -29,19 +29,17 @@ public class Main {
 
         //차 20대 보유중인데 20대(혹은N대) 더 늘렸다면? 어찌해야할까?
         int addSize = Integer.parseInt(scanner.nextLine());
-        Car[] cars2 = new Car[size+addSize];
+        Car[] cars2 = new Car[size + addSize];
 
-        for (int i = 0; i < size+addSize; i++) {
-            if(i<size) {
+        for (int i = 0; i < size + addSize; i++) {
+            if (i < size) {
                 cars2[i] = cars[i];
-            }else {
+            } else {
                 cars2[i] = new Car(i);
             }
         }
         //이렇게 만들면 매번 새로 배열을 만들어줘야하니 불편함
 
         // TODO: 연결리스트 만들기
-
-
     }
 }
