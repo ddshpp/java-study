@@ -28,7 +28,6 @@ public class JCF {
         //인덱스로 접근할때가 아니라면 이렇게하면 속도빠름
         //성능을 최적화 하기 위해 수많은 고민
         printCars(cars);
-
     }
 
     //ctrl+alt+M 하면 메소드 만들어줌
