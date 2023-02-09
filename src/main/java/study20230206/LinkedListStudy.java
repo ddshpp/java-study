@@ -34,6 +34,8 @@ public class LinkedListStudy<T> {
             throw new IndexOutOfBoundsException();
         }
 
+        //TODO:보다작을때 상황도 만들어보자
+
         //데이터가 있을때
         Node<T> node = findNode(index);
         return node.getItem();
@@ -58,6 +60,10 @@ public class LinkedListStudy<T> {
             first = null;
             size--;
             return;
+        }
+        
+        if (index == 0) {
+            //요거는 개인적으로 한번 고민해보자
         }
 
         //데이터가 있을때
